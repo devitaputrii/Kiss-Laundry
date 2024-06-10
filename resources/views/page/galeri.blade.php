@@ -125,6 +125,7 @@
                                         </tr>
 
                                         <!-- Modal -->
+                                        <button type="button" class="genric-btn info circle arrow small mr-2" data-toggle="modal" data-target="#editModalBanner{{ $post->id }}">Edit</button>
                                         <div class="modal fade" id="editModalBanner{{ $post->id }}" tabindex="-1" role="dialog" aria-labelledby="editModalBannerLabel{{ $post->id }}" aria-hidden="true">
                                             <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
                                                 <div class="modal-content">
